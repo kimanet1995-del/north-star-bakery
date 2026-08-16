@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>North Star Bakery | Contact and Pre-Orders</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -37,17 +38,19 @@
 
     <section class="section-card" aria-labelledby="form-heading">
       <h2 id="form-heading">Send us a request</h2>
-      <form action="#" method="post">
+      <form action="#" method="post" id="preorder-form" novalidate>
         <fieldset>
           <legend>Your Contact Information</legend>
           <div class="form-grid">
             <div class="form-group">
               <label for="name">Full name</label>
-              <input type="text" id="name" name="name" required minlength="2" pattern="[A-Za-z .'-]{2,50}" autocomplete="name">
+              <input type="text" id="name" name="name" required minlength="2" pattern="[A-Za-z .'-]{2,50}" autocomplete="name" aria-describedby="name-error">
+              <p class="field-error" id="name-error" aria-live="polite"></p>
             </div>
             <div class="form-group">
               <label for="email">Email address</label>
-              <input type="email" id="email" name="email" required autocomplete="email">
+              <input type="email" id="email" name="email" required autocomplete="email" aria-describedby="email-error">
+              <p class="field-error" id="email-error" aria-live="polite"></p>
             </div>
           </div>
         </fieldset>
@@ -57,7 +60,8 @@
           <div class="form-grid">
             <div class="form-group">
               <label for="pickup-date">Preferred pickup date</label>
-              <input type="date" id="pickup-date" name="pickup-date" required>
+              <input type="date" id="pickup-date" name="pickup-date" required aria-describedby="pickup-date-error">
+              <p class="field-error" id="pickup-date-error" aria-live="polite"></p>
             </div>
             <div class="form-group">
               <p><strong>Request type</strong></p>
@@ -76,7 +80,8 @@
 
           <div class="form-group">
             <label for="item-details">Item details</label>
-            <textarea id="item-details" name="item-details" rows="5" required minlength="10"></textarea>
+            <textarea id="item-details" name="item-details" rows="5" required minlength="10" aria-describedby="item-details-error"></textarea>
+            <p class="field-error" id="item-details-error" aria-live="polite"></p>
           </div>
 
           <div class="form-group">
@@ -85,7 +90,12 @@
           </div>
         </fieldset>
 
+        <div class="save-preference">
+          <input type="checkbox" id="remember-contact" name="remember-contact">
+          <label for="remember-contact">Remember my name and email on this device</label>
+        </div>
         <button type="submit">Submit Request</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
       </form>
     </section>
 

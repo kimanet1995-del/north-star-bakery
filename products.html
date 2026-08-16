@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>North Star Bakery | Products</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -36,23 +37,34 @@
     </section>
 
     <section aria-labelledby="menu-heading">
-      <h2 id="menu-heading">Bakery favorites</h2>
-      <div class="product-grid">
-        <article class="card">
+      <p class="eyebrow">Interactive menu</p>
+      <h2 id="menu-heading">Save your bakery favorites</h2>
+      <p class="lead">Choose items you want to remember for your next visit. Your favorites are saved in this browser and restored when you return.</p>
+      <div class="product-grid" id="favorite-products">
+        <article class="card product-card" data-product-id="bread">
           <h3>Artisan breads</h3>
           <p>Crusty loaves, soft sandwich breads, and rotating seasonal recipes baked fresh each morning.</p>
           <p class="price">Typical range: $5-$12 per loaf</p>
+          <button type="button" class="favorite-button" data-favorite-id="bread" aria-pressed="false">Save favorite</button>
         </article>
-        <article class="card">
+        <article class="card product-card" data-product-id="pastries">
           <h3>Pastries</h3>
           <p>Breakfast pastries, cookies, bars, and seasonal specialties made for quick treats or shared boxes.</p>
           <p class="price">Typical range: $3-$8 per item</p>
+          <button type="button" class="favorite-button" data-favorite-id="pastries" aria-pressed="false">Save favorite</button>
         </article>
-        <article class="card">
+        <article class="card product-card" data-product-id="cakes">
           <h3>Celebration cakes</h3>
           <p>Cakes for birthdays, family gatherings, office events, and other celebrations. Flavors and sizes vary by availability.</p>
           <p class="price">Typical range: $28-$75</p>
+          <button type="button" class="favorite-button" data-favorite-id="cakes" aria-pressed="false">Save favorite</button>
         </article>
+      </div>
+      <div class="favorites-summary" id="favorites-summary" aria-live="polite">
+        <h3>Your saved favorites</h3>
+        <p id="favorites-message">No favorites saved yet.</p>
+        <ul id="favorites-list"></ul>
+        <button type="button" id="clear-favorites" class="secondary-button" hidden>Clear favorites</button>
       </div>
     </section>
 

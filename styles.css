@@ -394,3 +394,93 @@ address {
     padding: 1.75rem;
   }
 }
+
+
+/* Touchstone 4: JavaScript interactivity and feedback */
+.product-card.is-favorite {
+  border: 2px solid var(--terracotta);
+  box-shadow: 0 0.5rem 1.5rem rgba(107, 62, 38, 0.16);
+}
+
+.favorite-button[aria-pressed="true"] {
+  background: var(--terracotta);
+  color: var(--charcoal);
+}
+
+.favorites-summary {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border-left: 0.35rem solid var(--terracotta);
+  background: white;
+  border-radius: 0.75rem;
+}
+
+.favorites-summary h3 {
+  margin-top: 0;
+}
+
+.favorites-summary ul {
+  margin: 0.5rem 0 1rem;
+}
+
+.secondary-button {
+  background: transparent;
+  color: var(--brown);
+  border: 2px solid var(--brown);
+}
+
+.secondary-button:hover,
+.secondary-button:focus-visible {
+  background: var(--brown);
+  color: var(--cream);
+}
+
+.field-error {
+  min-height: 1.25rem;
+  margin: 0.3rem 0 0;
+  color: #8b1e1e;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+input.has-error,
+textarea.has-error {
+  border: 2px solid #8b1e1e;
+  background: #fff7f7;
+}
+
+.save-preference {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+}
+
+.save-preference input {
+  width: auto;
+}
+
+.save-preference label {
+  margin: 0;
+  font-weight: 700;
+}
+
+.form-status {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.form-status.success {
+  padding: 0.8rem 1rem;
+  border-radius: 0.6rem;
+  background: #eef7ee;
+  color: #285d2f;
+}
+
+.storage-note {
+  padding: 0.65rem 0.8rem;
+  border-radius: 0.55rem;
+  background: rgba(216, 140, 90, 0.16);
+  color: var(--brown);
+  font-weight: 700;
+}
