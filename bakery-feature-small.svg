@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+  <rect width="700" height="700" fill="#fff8f0"/>
+  <ellipse cx="350" cy="510" rx="250" ry="55" fill="#d7c3ad"/>
+  <circle cx="350" cy="320" r="180" fill="#d88c5a"/>
+  <path d="M215 320c90-125 180-125 270 0" fill="none" stroke="#fff8f0" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="300" cy="285" r="11" fill="#6b3e26"/><circle cx="405" cy="370" r="11" fill="#6b3e26"/>
+  <text x="350" y="630" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#6b3e26">Seasonal Feature</text>
+</svg>

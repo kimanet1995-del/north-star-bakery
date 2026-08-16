@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#fff8f0"/>
+  <rect y="390" width="800" height="170" fill="#eadbc9"/>
+  <rect x="110" y="120" width="580" height="320" rx="14" fill="#6b3e26"/>
+  <rect x="145" y="205" width="210" height="175" fill="#fff8f0"/>
+  <rect x="445" y="205" width="210" height="175" fill="#fff8f0"/>
+  <rect x="365" y="245" width="70" height="195" fill="#d88c5a"/>
+  <rect x="150" y="145" width="500" height="45" rx="8" fill="#d88c5a"/>
+  <text x="400" y="176" text-anchor="middle" font-family="Georgia, serif" font-size="29" fill="#2f2a26">NORTH STAR BAKERY</text>
+  <circle cx="400" cy="270" r="8" fill="#2f2a26"/>
+  <path d="M180 205v175M210 205v175M240 205v175M270 205v175M300 205v175M330 205v175M470 205v175M500 205v175M530 205v175M560 205v175M590 205v175M620 205v175" stroke="#d88c5a" stroke-width="8"/>
+</svg>

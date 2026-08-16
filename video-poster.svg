@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#6b3e26"/>
+  <circle cx="640" cy="325" r="110" fill="#d88c5a"/>
+  <polygon points="610,255 610,395 720,325" fill="#fff8f0"/>
+  <text x="640" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="58" fill="#fff8f0">Behind the Scenes</text>
+  <text x="640" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#fff8f0">North Star Bakery</text>
+</svg>

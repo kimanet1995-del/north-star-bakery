@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Star Bakery | Contact and Pre-Orders</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img src="assets/bakery-logo.svg" alt="North Star Bakery logo">
+        <p class="brand-name">North Star Bakery</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Our Bakery</a></li>
+          <li><a href="contact.html" aria-current="page">Contact &amp; Pre-Orders</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-intro">
+      <div>
+        <p class="eyebrow">Questions or future orders</p>
+        <h1>Contact &amp; Pre-Order Requests</h1>
+        <p class="lead">Tell us what you need and we will follow up using the email address you provide.</p>
+      </div>
+      <img src="assets/bakery-contact.svg" alt="Bakery order box with bread and pastries ready for pickup">
+    </section>
+
+    <section class="section-card" aria-labelledby="form-heading">
+      <h2 id="form-heading">Send us a request</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Your Contact Information</legend>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required minlength="2" pattern="[A-Za-z .'-]{2,50}" autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Request Details</legend>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="pickup-date">Preferred pickup date</label>
+              <input type="date" id="pickup-date" name="pickup-date" required>
+            </div>
+            <div class="form-group">
+              <p><strong>Request type</strong></p>
+              <div class="radio-row">
+                <div class="radio-option">
+                  <input type="radio" id="preorder" name="request-type" value="preorder" required>
+                  <label for="preorder">Pre-order</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" id="question" name="request-type" value="question">
+                  <label for="question">General question</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="item-details">Item details</label>
+            <textarea id="item-details" name="item-details" rows="5" required minlength="10"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="allergy-notes">Allergy notes, if applicable</label>
+            <textarea id="allergy-notes" name="allergy-notes" rows="3"></textarea>
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+
+    <section aria-labelledby="visit-heading">
+      <h2 id="visit-heading">Visit the bakery</h2>
+      <div class="info-grid">
+        <div class="card">
+          <h3>Location</h3>
+          <address>North Star Bakery<br>125 Market Street<br>Riverside</address>
+        </div>
+        <div class="card">
+          <h3>Hours</h3>
+          <p>Monday-Saturday: 7:00 a.m.-6:00 p.m.<br>Sunday: 8:00 a.m.-2:00 p.m.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 North Star Bakery.</p>
+      <p>Freshly baked for our community.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#fff8f0"/>
+  <rect x="90" y="360" width="620" height="90" rx="18" fill="#6b3e26"/>
+  <circle cx="250" cy="220" r="75" fill="#d88c5a"/><circle cx="400" cy="205" r="75" fill="#d88c5a"/><circle cx="550" cy="220" r="75" fill="#d88c5a"/>
+  <path d="M175 365c10-95 140-95 150 0M325 365c10-105 140-105 150 0M475 365c10-95 140-95 150 0" fill="#2f2a26"/>
+  <path d="M190 165h120l-15-32H205zM340 150h120l-15-32H355zM490 165h120l-15-32H505z" fill="#6b3e26"/>
+  <text x="400" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#6b3e26">Our Bakery Team</text>
+</svg>

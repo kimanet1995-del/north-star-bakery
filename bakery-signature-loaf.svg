@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#fff8f0"/>
+  <ellipse cx="450" cy="465" rx="320" ry="55" fill="#d7c3ad"/>
+  <path d="M150 420c25-175 145-280 300-280s275 105 300 280z" fill="#d88c5a"/>
+  <path d="M265 245c48 52 70 106 76 166M418 205c42 62 60 127 60 198M590 245c-36 52-58 108-64 166" stroke="#fff8f0" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <text x="450" y="545" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#6b3e26">North Star Signature Loaf</text>
+</svg>

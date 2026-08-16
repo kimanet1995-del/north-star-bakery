@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#fff8f0"/>
+  <rect x="170" y="180" width="460" height="260" rx="25" fill="#6b3e26"/>
+  <rect x="205" y="220" width="390" height="180" rx="18" fill="#d88c5a"/>
+  <circle cx="310" cy="300" r="65" fill="#fff8f0"/>
+  <path d="M250 338c18-55 100-55 120 0" fill="#6b3e26"/>
+  <circle cx="490" cy="300" r="58" fill="#fff8f0"/>
+  <path d="M445 300c30-42 60-42 90 0" stroke="#6b3e26" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <text x="400" y="505" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#6b3e26">Ready for Pickup</text>
+</svg>

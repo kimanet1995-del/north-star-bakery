@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+  <rect width="1000" height="650" fill="#fff8f0"/>
+  <ellipse cx="500" cy="475" rx="330" ry="65" fill="#d7c3ad"/>
+  <circle cx="385" cy="305" r="145" fill="#d88c5a"/>
+  <circle cx="610" cy="305" r="145" fill="#d88c5a"/>
+  <path d="M280 305c65-90 145-90 210 0M510 305c65-90 145-90 210 0" fill="none" stroke="#fff8f0" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="365" cy="285" r="10" fill="#6b3e26"/><circle cx="430" cy="340" r="10" fill="#6b3e26"/><circle cx="590" cy="290" r="10" fill="#6b3e26"/><circle cx="650" cy="335" r="10" fill="#6b3e26"/>
+  <text x="500" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#6b3e26">Seasonal Pastry Feature</text>
+</svg>
